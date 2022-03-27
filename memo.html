@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="sub">
+        <a href="memo.html"><img src="images/notepad_sub.png"></a>
+    </div>
+    <div class="colors">
+        <button style="background-color: rgb(243, 46, 46); border: none; color: rgb(243, 46, 46);" onclick="red();">..</button>
+        <button style="background-color: coral; border: none; color: coral;" onclick="coral();">..</button>
+        <button style="background-color: sandybrown; border: none; color: sandybrown;" onclick="orange();">..</button>
+        <button style="background-color: gold; border: none; color: gold;" onclick="yellow();">..</button>
+        <button style="background-color: yellowgreen; border: none; color: yellowgreen;" onclick="ygreen();">..</button>
+        <button style="background-color: rgb(61, 148, 61); border: none; color: rgb(61, 148, 61);" onclick="green();">..</button>
+        <button style="background-color: rgb(99, 222, 238); border: none; color: rgb(99, 222, 238);" onclick="skyblue();">..</button>
+        <button style="background-color:rgb(33, 62, 189); border: none; color: rgb(33, 62, 189);" onclick="blue();">..</button>
+        <button style="background-color: rebeccapurple; border: none; color: rebeccapurple;" onclick="rpurple();">..</button>
+        <button style="background-color: mediumorchid; border: none; color: mediumorchid;" onclick="purple();">..</button>
+        <button style="background-color: pink; border: none; color: pink" onclick="pink();">..</button>
+        <button style="background-color: white; border: none; color: white;" onclick="white();">..</button>
+        <button style="background-color: lightslategray; border: none; color: lightslategray;" onclick="grey();">..</button>
+        <button style="background-color: black; border: none; color: black;" onclick="black();">..</button>
+    </div>
+    <div class="notepad">
+        <canvas id="myCanvas" width="408" height="550"></canvas>
+        <script type="text/javascript" src="memo_canvas.js"></script>
+    </div>
+    <div class="notepad_menu">
+        <button class="memobtn" onclick="initialize();">지우기</button>
+        <button class="memobtn" onclick="save();">저장</button>
+        <button class="memobtn" onclick="restore();">복원</button>
+    </div>
+</body>
+</html>

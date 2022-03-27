@@ -1,0 +1,165 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face { 
+    font-family: 'DOSGothic';
+    src: url(fonts/DOSGothic.ttf) format('truetype');
+}
+
+.page {
+    padding: 5px;
+}
+
+.top {
+    width: 490px;
+    height: 63px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.middle {
+    width: 490px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.left {
+    background-image: url('images/img_04.png');
+    float: left;
+    display: inline;
+    width: 31px;
+    height: 875px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    float: left;
+    display: inline;
+    background-color: white;
+    width: 428px;
+    height: 875px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 60px 0 0 0;
+}
+
+.menu {
+    margin: 100px 0;
+}
+
+.right {
+    float: left;
+    display: inline;
+    background-image: url('images/img_02.png');
+    width: 31px;
+    height: 875px;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom {
+    width: 490px;
+    height: 53px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer {
+    width: 428px;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+}
+
+.contents{
+    width: 428px;
+    height: 670px;
+    padding: 10px 0 10px 0;
+}
+
+.games {
+    text-align: center;
+    width: 428px;
+    margin: 10px 0;
+}
+
+.music_top {
+    margin : 20px 0 10px 0;
+}
+
+.notepad {
+    margin: 10px 10px 10px 10px;
+}
+
+.notepad_menu {
+    text-align: center;
+    font-family: 'DOSGothic';
+    margin: 0;
+}
+
+.music_list {
+    width: 400px;
+    height: 750px;
+    font-family: 'DOSGothic';
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.invasion {
+    margin: 0 55px;
+}
+
+.g2048 {
+    margin: 10px 0;
+}
+
+#music_table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.colors {
+    text-align: center;
+}
+
+.memobtn {
+    background-color: ivory;
+    border-color: black;
+    color: black;
+    font-family: 'DOSGothic';
+    cursor: pointer;
+    text-align: center;
+    margin: 0 5px;
+    padding: 5px 7px;
+    font-weight: bold;
+}
+
+.bubble {
+    margin: 0;
+}
+
+.games_top {
+    margin: 10px 0 0 0;
+}
+
+#game_list {
+    text-align: center;
+    width: 428px;
+    border-collapse: separate;
+    border-spacing: 60px 50px;
+}
+
+.tetris {
+    width: 428px;
+    margin: 0;
+}
